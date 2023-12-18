@@ -1,0 +1,6 @@
+{
+  "env": {
+    "PORT": 3000,
+    "URL_WSDL": "http://ucws.nhso.go.th:80/ucwstokenp1/UCWSTokenP1?wsdl"
+  }
+}

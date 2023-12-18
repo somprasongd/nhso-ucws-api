@@ -30,12 +30,12 @@ const initRoutes = (app, soapClient) => {
     };
     soapClient.searchCurrentByPID(args, function (err, result) {
       if (err) {
-        console.log(err);
+        // console.log(err);
         return res.status(500).json({
           error: err.message,
         });
       } else {
-        console.log(result);
+        // console.log(result);
         return res.json(result?.return || {});
       }
     });
